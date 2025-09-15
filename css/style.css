@@ -55,28 +55,29 @@
   font-weight: 400;
   position: relative;
 }
-.let-s-create-a-website-design {
-  color: #ffffff;
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* vertical centering if parent has height */
+  min-height: 100vh;
+  color: #fff;
   text-align: center;
+}
+
+.let-s-create-a-website-design {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 72px;
   font-weight: 700;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 321px;
+  margin-bottom: 20px; /* space before the subtitle */
 }
+
 .air-traffic-consultant-with-expertise-in-data-analysis-and-visualization {
-  color: #ffffff;
-  text-align: center;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 439px;
 }
+
 .group-1 {
   position: absolute;
   inset: 0;
@@ -110,3 +111,14 @@
   translate: -50%;
   top: 904px;
 }
+.get-started {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #29de56; /* blue */
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
